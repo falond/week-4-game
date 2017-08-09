@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Street Fighter</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+			<div class="row" id="yourCharacter">
+              <ul>
+                <li>
+                <img class="logo" src="assets/images/street1.png" alt="Street Fighter Logo">
+
+                    <h2> Select Player!</h2>
+                    <div class="panel panel-default characters" id="ryu">
+                    <div class="panel-heading">Ryu</div>
+                    <div class="panel-body">
+                        <img src="assets/images/ryu.jpg">
+                    </div>
+                    <div class="panel-footer" id="ryuHP">hello</div>
+                </div>
+
+
+                <div class="panel panel-default characters" id="ken">
+                    <div class="panel-heading">Ken</div>
+                    <div class="panel-body">
+                        <img src="assets/images/ken.jpeg">
+                    </div>
+                    <div class="panel-footer" id="kenHP">hello</div>
+                </div>
+
+                <div class="panel panel-default characters" id="sagat">
+                    <div class="panel-heading">Sagat Tiger</div>
+                    <div class="panel-body">
+                        <img src="assets/images/sagat.jpg">
+                    </div>
+                    <div class="panel-footer" id="sagatHP">hello</div>
+                </div>
+
+                <div class="panel panel-default characters" id="chunli">
+                    <div class="panel-heading">Chun Li</div>
+                    <div class="panel-body">
+                        <img src="assets/images/chun_li.jpeg">
+                    </div>
+                    <div class="panel-footer" id="chunliHP">hello</div>
+                </div>
+
+
+       <div class="row" id="selectedPlayer">
+           <h2>Selected Player</h2>
+        </div>
+
+        <div class="row" id="selectedDefender">
+           <h2>Selected Defender</h2>
+        </div>
+
+        <div class="row" id="availableDefenders">
+           <h2>Available Defenders</h2>
+        </div>
+
+        <div class="row" id="fightZone">
+           <h2>Fight Zone</h2>
+        </div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
+

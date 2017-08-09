@@ -1,0 +1,21 @@
+img{
+	width: 200px;
+	height: 220px;
+	text-align: center;
+}
+
+.characters{
+	display: inline-block;
+	text-align: center;
+	margin-left: 50px;
+}
+
+.logo{
+	margin-left: 430px;
+	width: 280px;
+
+}
+
+h2{
+	margin-left: 50px;
+}
